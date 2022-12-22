@@ -9,7 +9,7 @@ env:
 #jobs
 jobs:
   test:
-    environment: testing
+    env:
       MONGODB_CLUSTER_ADDRESS: cluster0.fa8xsz1.mongodb.net
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME}}
       MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD}}
